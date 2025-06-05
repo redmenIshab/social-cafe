@@ -6,6 +6,7 @@
     --border-radius-hover: 4% 95% 6% 95% / 95% 4% 92% 5%;
     --border: .2rem solid var(--main-color);
     --border-hover: .2rem dashed var(--main-color);
+    --primary-color: #3aa76d
 }
 
 * {
@@ -35,7 +36,7 @@ section {
     font-size: 9rem;
     text-transform: uppercase;
     color: transparent;
-    -webkit-text-stroke: .05rem var(--main-color);
+    -webkit-text-stroke: .05rem var(--primary-color);
     letter-spacing: .2rem;
     text-align: center;
     pointer-events: none;
@@ -160,6 +161,12 @@ section {
     color: var(--main-color);
     text-transform: uppercase;
 }
+
+.home .row .content h4 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
 
 .home .image-slider {
     text-align: center;
