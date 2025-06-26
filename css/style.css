@@ -367,7 +367,7 @@ section {
 
 .review .review-slider .box .stars i {
     font-size: 1.7rem;
-    color: var(--main-color);
+    color: #ffd32c;
 }
 
 .review .review-slider .box p {
@@ -452,6 +452,7 @@ section {
     font-size: 1.5rem;
     padding: 1rem 0;
     color: var(--main-color);
+    text-transform: none;
 }
 
 .footer .box-container .box a i {
